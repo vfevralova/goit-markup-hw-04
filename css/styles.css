@@ -302,12 +302,6 @@ img {
   text-align: center;
 }
 
-.social-media-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
 .team-social-media {
   display: flex;
   justify-content: center;
@@ -429,11 +423,6 @@ img {
   padding-bottom: 100px;
 }
 
-.footer-content {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -451,6 +440,11 @@ img {
   gap: 16px;
   align-items: center;
   justify-content: center;
+}
+
+.container.footer-content {
+  display: flex;
+  align-items: baseline;
 }
 
 .social-text {
