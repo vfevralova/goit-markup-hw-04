@@ -456,7 +456,7 @@ img {
   color: #fff;
 }
 
-.social-media-link.link-footer:hover .link-item,
-.social-media-link.link-footer:focus .link-item {
+.link-item.footer:hover,
+.link-item.footer:focus {
   background-color: #31d0aa;
 }
