@@ -281,7 +281,7 @@ img {
 }
 
 .team-card-name {
-  padding: 32px 0px;
+  padding: 32px 0px 0px 0px;
 }
 
 .team-item-title {
@@ -300,6 +300,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-social-media {
@@ -311,6 +312,7 @@ img {
 .social-media-link {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-item {
@@ -321,7 +323,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
@@ -406,7 +407,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Footer */
+/* ==============Footer============== */
 
 .footer-logo {
   display: inline-block;
